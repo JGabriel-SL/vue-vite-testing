@@ -1,13 +1,20 @@
 <template>
-    <div class="container">
-        <h1>Welcome to the new world</h1>
+    <div class="container container-main-text">
+        <h1>Welcome to the <s>new</s> world</h1>
     </div>
 </template>
 
-<style>
-    .container {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
+<style scoped>
+
+.container-main-text {
+    font-weight: 700;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    height: 80vh;
+}
+
 </style>
