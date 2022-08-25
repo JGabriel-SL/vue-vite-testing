@@ -52,9 +52,9 @@
       <Card title="Card Two" text="a subtitle" />
       <Card title="Card Three" text="a subtitle" />
 
-      <Card title="Card One" text="a subtitle" />
-      <Card title="Card Two" text="a subtitle" />
-      <Card title="Card Three" text="a subtitle" />
+      <Card title="Card For" text="a subtitle" />
+      <Card title="Card Five" text="a subtitle" />
+      <Card title="Card Six" text="a subtitle" />
 
     </div>
   </div>
