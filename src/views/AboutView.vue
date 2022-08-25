@@ -58,6 +58,19 @@
 
     </div>
   </div>
+  <h1 class="text-center">More one section</h1>
+
+   <div class="main-container">
+     <div class="text-container">
+       <h2>Testing</h2>
+       <p>A simple text about something interesting!</p>
+     </div>
+    <div class="img-container">
+      <img src="../assets/art.svg" width="200" alt="Quadro com pequena árvore">
+      <p>Text here</p>
+    </div>
+  </div>
+
 </template>
 
 <style scoped>
@@ -67,7 +80,7 @@
       display: flex;
       justify-content: center;
     
-      animation: floating 3s infinite;
+      animation: floating 5s infinite;
   }
 
   /* .container-main-text h1 {
