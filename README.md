@@ -1,3 +1,7 @@
+# Testing Vue + Vite 
+
+This project can help me to started developing with Vue and Vite.
+
 # vue-project
 
 This template should help get you started developing with Vue 3 in Vite.

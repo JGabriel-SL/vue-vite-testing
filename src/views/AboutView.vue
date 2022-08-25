@@ -1,7 +1,20 @@
+<script lang="ts">
+  import Card from '../components/Card.vue';
+
+  export default {
+    components: {
+      Card
+    }
+  }
+
+</script>
+
 <template>
+
   <div class="container container-main-text">
-      <h1>This is an about page</h1>
+    <h1>This is an about page</h1>
   </div>
+
   <div class="main-container">
     <div class="img-container">
       <img src="../assets/art.svg" width="200" alt="Quadro com pequena árvore">
@@ -12,6 +25,7 @@
       <p>A simple text about something interesting!</p>
     </div>
   </div>
+
   <div class="container text-center">
     <h1>Interesting options</h1>
     <p>and a subtitle more interesting</p>
@@ -30,13 +44,24 @@
       </div>
     </div>
   </div>
+
   <div class="container text-center">
     <h1>Other section</h1>
+    <div class="container-flex space-around wrap">
+      <Card title="Card One" text="a subtitle" />
+      <Card title="Card Two" text="a subtitle" />
+      <Card title="Card Three" text="a subtitle" />
+
+      <Card title="Card One" text="a subtitle" />
+      <Card title="Card Two" text="a subtitle" />
+      <Card title="Card Three" text="a subtitle" />
+
+    </div>
   </div>
 </template>
 
 <style scoped>
-  .container-main-text {
+.container-main-text {
       font-weight: 700;
       letter-spacing: 5px;
       display: flex;

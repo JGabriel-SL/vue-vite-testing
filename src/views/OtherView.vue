@@ -9,7 +9,6 @@
 </template>
 
 <style scoped>
-
 .title h1 {
     width: 100%;
     display: flex;
