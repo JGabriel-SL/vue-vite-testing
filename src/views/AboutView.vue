@@ -12,7 +12,7 @@
 <template>
 
   <div class="container container-main-text">
-    <h1>This is an about page</h1>
+    <h1>This is an <u>about page</u></h1>
   </div>
 
   <div class="main-container">
@@ -66,7 +66,17 @@
       letter-spacing: 5px;
       display: flex;
       justify-content: center;
+    
+      animation: floating 3s infinite;
   }
+
+  /* .container-main-text h1 {
+    transition: 1s;
+  }
+
+  .container-main-text h1:hover {
+    letter-spacing: 10px;
+  } */
 
   .container {
       height: 80vh;
@@ -148,6 +158,18 @@
       padding-top: 2rem;
       align-items: center;
       text-align: center;
+    }
+  }
+
+  @keyframes floating {
+    0% {
+      letter-spacing: 5px;
+    }
+    50% {
+      letter-spacing: 10px;
+    }
+    100% {
+      letter-spacing: 5px;
     }
   }
 
